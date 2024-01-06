@@ -1,0 +1,14 @@
+-sudo apt update 
+-git clone https://github.com/shreyashkilledar/SDM-Exam.git
+-ls
+-cd SDM-Exam
+-ls
+-sudo apt install nodejs
+-sudo apt install npm
+-npm install express
+-npm init
+-sudo apt install docker.io
+-sudo docker systemctl --type=service --state=running
+-sudo docker build -t sk .
+-sudo docker run -d -p 8000:8000 sk
+-sudo docker ps
