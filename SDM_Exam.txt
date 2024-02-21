@@ -11,4 +11,5 @@
 -sudo docker systemctl --type=service --state=running
 -sudo docker build -t sk .
 -sudo docker run -d -p 8000:8000 sk
+copy
 -sudo docker ps
