@@ -11,5 +11,5 @@
 -sudo docker systemctl --type=service --state=running
 -sudo docker build -t sk .
 -sudo docker run -d -p 8000:8000 sk
-copy the IP address 
+copy the IP address and paste on browser to run website 
 -sudo docker ps
