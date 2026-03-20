@@ -13,3 +13,6 @@
 -sudo docker run -d -p 8000:8000 sk
 -[copy the IP address and paste on browser to run website (ex. IP address:8000)]
 -sudo docker ps
+
+inbound Rule: All TCP
+outbound Rule: All Traffic
